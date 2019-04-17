@@ -2,7 +2,7 @@
     "name": "swag/administration-new-column",
     "description": "New administration column",
     "version": "v1.0.0",
-    "type": "shopware-plugin",
+    "type": "shopware-platform-plugin",
     "license": "MIT",
     "authors": [
         {
@@ -13,7 +13,7 @@
         "shopware/platform": "dev-master"
     },
     "extra": {
-        "installer-name": "AdministrationNewColumn",
+        "shopware-plugin-class": "Swag\\AdministrationNewColumn\\AdministrationNewColumn",
         "label": {
             "de_DE": "Neue Spalte in der Administration",
             "en_GB": "New administration column"
@@ -21,6 +21,11 @@
         "description": {
             "de_DE": "Neue Spalte in der Administration",
             "en_GB": "New administration column"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Swag\\AdministrationNewColumn\\": "src/"
         }
     }
 }

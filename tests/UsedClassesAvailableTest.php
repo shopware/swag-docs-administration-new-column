@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace AdministrationNewColumn\Test;
+namespace Swag\AdministrationNewColumnTests;
 
 use Shopware\Core\Framework\Test\TestCaseBase\IntegrationTestBehaviour;
 use PHPUnit\Framework\TestCase;
