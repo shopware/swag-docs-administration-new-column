@@ -12,7 +12,7 @@ class UsedClassesAvailableTest extends TestCase
 
     public function testClassesAreInstantiable(): void
     {
-        $namespace = str_replace('\Test', '', __NAMESPACE__);
+        $namespace = str_replace('Tests', '', __NAMESPACE__);
 
         foreach ($this->getPluginClasses() as $class) {
             $classRelativePath = str_replace(['.php', '/'], ['', '\\'], $class->getRelativePathname());
