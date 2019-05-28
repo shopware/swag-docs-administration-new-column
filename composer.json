@@ -15,12 +15,12 @@
     "extra": {
         "shopware-plugin-class": "Swag\\AdministrationNewColumn\\AdministrationNewColumn",
         "label": {
-            "de_DE": "Neue Spalte in der Administration",
-            "en_GB": "New administration column"
+            "de-DE": "Label für das Plugin AdministrationNewColumn",
+            "en-GB": "Label for the plugin AdministrationNewColumn"
         },
         "description": {
-            "de_DE": "Neue Spalte in der Administration",
-            "en_GB": "New administration column"
+            "de-DE": "Beschreibung für das Plugin AdministrationNewColumn",
+            "en-GB": "Description for the plugin AdministrationNewColumn"
         }
     },
     "autoload": {
