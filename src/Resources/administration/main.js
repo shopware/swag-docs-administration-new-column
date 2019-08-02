@@ -3,7 +3,7 @@ import { Component } from 'src/core/shopware';
 Component.override('sw-product-list', {
     computed: {
         productColumns() {
-            let columns = this.getProductColumns();
+            const columns = this.getProductColumns();
 
             columns.push({
                 property: 'manufacturer.id',
@@ -15,6 +15,6 @@ Component.override('sw-product-list', {
             });
 
             return columns;
-        },
-    },
+        }
+    }
 });
