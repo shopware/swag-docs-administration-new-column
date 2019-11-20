@@ -3,7 +3,7 @@ const { Component } = Shopware;
 Component.override('sw-product-list', {
     computed: {
         productColumns() {
-            const columns = this.getProductColumns();
+            const columns = this.$super('productColumns');
 
             columns.push({
                 property: 'manufacturer.id',
